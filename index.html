@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+	<title> Revisão </title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+		<h1> Formulários de Cadastro </h1>
+
+		<p> Complete com suas Informações </p>
+
+		<br>
+
+	<div class="container">
+
+		<form action="bardet2006@gmail.com" method="POST">
+
+			<fieldset>
+
+				<legend> Formulário </legend>
+
+				<div class="inputBox"> 
+
+					<!-- Tipo: Texto -->
+
+					<input type="text" name="nome" required="" class="inputUser" id="nome">
+
+					<label for="nome" class="labelInput"> Nome: </label>
+
+					
+
+				</div>
+
+				<br> <br>
+
+				<div class="inputBox">
+
+				  <!-- Tipo: Texto -->
+
+					<input type="text" name="sobrenome" required="" class="inputUser" id="sobrenome">
+
+					<label for="sobrenome" class="labelInput"> Sobrenome: </label>
+
+				</div>
+
+					<br> <br>  <!-- Tipo: Data -->
+
+					<label> Data de Nascimento: </label>
+
+					<input type="date" name="data" required="">
+
+					<br> <br>
+
+
+
+					<div class="inputBox">
+
+					<!-- Tipo: Email -->
+
+					<input type="email" name="email" required="" id="email" class="inputUser">
+
+					<label for="email" class="labelInput"> Email: </label>
+
+					</div>
+
+
+
+					<br> <br>  <!-- Tipo: Senha -->
+
+					<div class="inputBox">
+
+					<input type="password" name="password" required="" id="password" class="inputUser">
+            
+	<label for="password" class="labelInput"> Senha: </label>
+
+					<br> <br>
+
+
+
+					</div>
+
+					<div>  <!-- Tipo: Radio -->
+
+						<label> <b> De qual lado da aplicação você desenvolve? </b> </label> <br>
+
+						<input type="radio" name="devweb" value="frontend"> Front-end
+
+						<br>
+
+						<input type="radio" name="devweb" value="backend"> Back-end
+
+						<br>
+
+						<input type="radio" name="devweb" value="fullstack"> Fullstack
+
+					</div>
+
+					<br>
+
+					<div> <!-- Tipo: Selecionar -->
+
+						<label> <b> Qual tipo de Sênior? </b> </label>
+
+						<select>
+
+							<option> Selecione </option>
+
+							<option> Júnior </option>
+
+							<option> Pleno </option>
+
+							<option> Sênior </option>
+
+						</select>
+
+					</div>
+
+					<br>	
+
+					<div> <!-- Tipo: Marcar -->
+
+						<label> <b> Selecione as tecnologias que você utiliza </b> </label> <br>
+
+						<input type="checkbox" name="tecnologia1" value="HTML">HTML
+
+						<input type="checkbox" name="tecnologia2" value="CSS">CSS
+
+						<input type="checkbox" name="tecnologia3" value="JavaScript">JavaScript
+
+						<input type="checkbox" name="tecnologia4" value="PHP">PHP
+
+						<input type="checkbox" name="tecnologia5" value="C#">C#
+
+						<input type="checkbox" name="tecnologia6" value="Python">Python
+
+						<input type="checkbox" name="tecnologia7" value="Java">Java
+
+					</div>
+
+					<br>
+
+					<div> <!-- Tipo: Comentários -->
+
+						<label> <b> Conte um pouco mais sobre suas experiências: </b></label>
+
+						<br>
+
+<textarea rows="6" placeholder="Digite aqui" required=""></textarea>
+
+					</div>
+
+				<!-- Tipo: Botões de Enviar e Limpar -->
+
+			<input type="submit" name="bt" value="Enviar" class="btEnviar">
+
+			<input type="reset" name="bt" value="Limpar" id="btLimpar">
+
+				</div>
+
+			</fieldset> 
+
+		</form>
+
+	</div>
+
+</body>
+
+  </html>
+
+

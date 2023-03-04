@@ -1,0 +1,262 @@
+body{
+
+	background-color: #003399;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: white;
+
+	/*para ficar só a borda na parte dele...*/
+
+}
+
+
+
+form{
+
+	
+
+	background-color: #333366;
+
+	padding: 15px;
+
+	border-radius: 15px;
+
+}
+
+
+
+.container{
+
+	color: white;	
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	flex-direction: row;
+
+	width:100vw;
+
+	height:100vh;
+
+}
+
+.inputBox{
+
+	position: relative;
+
+}
+
+
+
+p,h1{
+
+	text-align: center;
+
+}
+
+
+
+fieldset{
+
+	border: 2px solid dodgerblue;
+
+	border-radius: 15px;
+
+}
+
+
+
+legend{
+
+border: 2px solid white;
+
+	padding: 10px;
+
+	text-align: center;
+
+	background-color: dodgerblue;
+
+	border-radius: 8px;
+
+}
+
+
+
+.btEnviar{ /* Trabalhando com a class, usar ponto para usar a class*/
+
+	background-color: dodgerblue;
+
+	border: 1px solid white;
+
+	border-radius: 10px;
+
+	color: white;
+
+	padding: 5px;
+
+	font-size: 15px;
+
+	cursor: pointer;
+
+}
+
+#btLimpar{ /* Trabalhando com a id, usar # para usar a id*/ 
+
+	background-color: dodgerblue;
+
+	border: 1px solid white;
+
+	border-radius: 10px;
+
+	color: white;
+
+	padding: 5px;
+
+	font-size: 15px;
+
+}
+
+
+
+/* input[type="text"], [type="password"], [type="email"]{
+
+	background-color: transparent; 
+
+	border: none;
+
+} */
+
+
+
+/* input[type="password"], [type="email"], [type="text"]{
+
+	border-radius: 7px;
+
+	width: 100%;
+
+} */
+
+
+
+#btLimpar:hover{
+
+	background-color: #cc0099;
+
+}
+
+
+
+.btEnviar:hover{
+
+	background-color: #FFCCFF;
+
+}
+
+
+
+/*::-webkit-input-placeholder{
+
+	color: red;
+
+} */
+
+
+
+.inputUser{
+
+	background: none;
+
+	border: none;
+
+	border-bottom: 1px solid white;	
+
+	outline: none;
+
+color: white;
+
+	font-size: 15px;
+
+	width: 100%;
+
+	letter-spacing: 2px;
+
+}
+
+
+
+.labelInput{
+
+	position: absolute;
+
+	top: 0px;
+
+	left: 0px;
+
+	pointer-events: none; /*qualquer lugar que eu clicar, ele vai aceitar...*/
+
+	transition: .5s;
+
+}
+
+
+
+.inputUser:focus ~ .labelInput, /*Fazendo a animação: quando clicar no input o label faz a animação...*/
+
+.inputUser:valid ~ .labelInput{ /*quando o input tiver válido, o label continua com a animação......*/
+
+	top: -20px;                      /*Fazendo a animação: o label faz a animação e sobe -20px......*/
+
+	font-size: 12px;              /*Fazendo a animação: a fonte-size fica em 12px...*/
+
+	color: dodgerblue;	        /*Fazendo a animação: muda a cor da fonte quando ela subir......*/
+
+}
+
+/* .box{
+
+	background-color: none;
+
+	border: none;
+
+	border-bottom: 1px solid white;
+
+	color: white;
+
+	font-size: 15px;
+
+	letter-spacing: 2px;
+
+} */
+
+
+
+/* Keywords 
+
+cursor: pointer;
+
+cursor: auto;
+
+
+
+Usando URL e cordenadas
+
+cursor:  url(cursor1.png) 4 12, auto;
+
+cursor:  url(fale.png) 2 2, pointer;
+
+
+
+Valores globais
+
+cursor: inherit;
+
+cursor: initial;
+
+cursor: unset; */
+
+
+
